@@ -1,0 +1,20 @@
+.flex-container1{
+    display: flex;
+    flex-direction: column;
+    background-color:red;
+    width: 150px;
+    height: 300px;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgreen;
+    width: 150px;
+    height: 360px;
+}
+.flex-container{
+    column-gap: 1em; /* Позволим элементам дышать */
+    column-rule: 1px solid #ccc;
+    column-count:2;
+    grid-template-columns: 3fr 3fr;
+}
