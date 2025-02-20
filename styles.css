@@ -2,35 +2,39 @@ body{
     background-color: blue;
 }
 
-.block{
-    position: relative;
+.blocks{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    column-gap: normal;
+    position:sticky;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 572px;
-    height: 436px;
-    top: 126px;
-    left: 1316px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 1);
-
-
-
+height: 436px;
+top: 126px;
+left: 1316px;
+border-radius: 20px;
+background-color: aliceblue;
 }
+
     
 .block1{
-    position: relative;
+    
     width: 72.5px;
     height: 25px;
     top: 154px;
     left: 1338.5px;
-    background: rgba(45, 55, 72, 1);
+    color: rgba(45, 55, 72, 1);
 
 
 }
 .block2{
-    position:relative;
+    
     width: 110.5px;
 height: 35px;
-top: 149px;
-left: 1758px;
+top: 1490px;
+left: auto;
 border-radius: 8px;
 border-width: 1px;
 padding-right: 8px;
@@ -38,7 +42,7 @@ padding-left: 8px;
 
 }
 .block4{
-    position: relative;
+   
     width: 98px;
 height: 20px;
 top: 206.5px;
@@ -48,13 +52,13 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19.6px;
 letter-spacing: 0%;
-background: rgba(45, 55, 72, 1);
+color: rgba(45, 55, 72, 1);
 
 
 
 }
 .block7{
-    position: relative;
+ 
     width: 69px;
 height: 18px;
 top: 230.5px;
@@ -64,13 +68,13 @@ font-weight: 400;
 font-size: 12px;
 line-height: 18px;
 letter-spacing: 0%;
-background: rgba(160, 174, 192, 1);
+color: rgba(160, 174, 192, 1);
 
 
 
 }
 .block5{
-    position:relative;
+  
     width: 81px;
 height: 18px;
 top: 217px;
@@ -78,7 +82,7 @@ left: 1785.5px;
 
 }
 .block8{
-    position: relative;
+  
     width: 124px;
 height: 20px;
 top: 273px;
@@ -88,11 +92,11 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19.6px;
 letter-spacing: 0%;
-background: rgba(45, 55, 72, 1);
+color: rgba(45, 55, 72, 1);
 
 }
 .block9{
-    position: relative;
+    
     width: 67px;
 height: 18px;
 top: 297px;
@@ -102,11 +106,11 @@ font-weight: 400;
 font-size: 12px;
 line-height: 18px;
 letter-spacing: 0%;
-background: rgba(160, 174, 192, 1);
+color: rgba(160, 174, 192, 1);
 
 }
 .block10{
-    position: relative;
+   
     width: 81px;
 height: 18px;
 top: 283.5px;
@@ -114,7 +118,7 @@ left: 1785.5px;
 
 }
 .block12{
-    position: relative;
+   
     width: 115px;
 height: 20px;
 top: 339.5px;
@@ -124,11 +128,11 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19.6px;
 letter-spacing: 0%;
-background: rgba(45, 55, 72, 1);
+color: rgba(45, 55, 72, 1);
 
 }
 .block13{
-    position: relative;
+    
     width: 67px;
 height: 18px;
 top: 363.5px;
@@ -138,12 +142,12 @@ font-weight: 400;
 font-size: 12px;
 line-height: 18px;
 letter-spacing: 0%;
-background: rgba(160, 174, 192, 1);
+color: rgba(160, 174, 192, 1);
 
 
 }
 .block14{
-    position: relative;
+    
     width: 81px;
 height: 18px;
 top: 350px;
@@ -151,7 +155,7 @@ left: 1785.5px;
 
 }
 .block16{
-position: relative;
+
 width: 101px;
 height: 20px;
 top: 406px;
@@ -161,13 +165,13 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19.6px;
 letter-spacing: 0%;
-background: rgba(45, 55, 72, 1);
+color: rgba(45, 55, 72, 1);
 
 
 
 }
 .block17{
-    position: relative;
+   
     width: 71.5px;
 height: 18px;
 top: 430px;
@@ -177,12 +181,12 @@ font-weight: 400;
 font-size: 12px;
 line-height: 18px;
 letter-spacing: 0%;
-background: rgba(160, 174, 192, 1);
+color: rgba(160, 174, 192, 1);
 
 
 }
 .block18{
-    position: relative;
+   
     width: 81px;
 height: 18px;
 top: 416.5px;
@@ -190,7 +194,7 @@ left: 1785.5px;
 
 }
 .block20{
-    position: relative;
+   
     width: 104px;
 height: 19.5px;
 top: 472.5px;
@@ -200,13 +204,13 @@ font-weight: 400;
 font-size: 14px;
 line-height: 19.6px;
 letter-spacing: 0%;
-background: rgba(45, 55, 72, 1);
+color: rgba(45, 55, 72, 1);
 
 
 
 }
 .block21{
-    position: relative;
+  
     width: 68.5px;
 height: 18px;
 top: 496.5px;
@@ -216,13 +220,13 @@ font-weight: 400;
 font-size: 12px;
 line-height: 18px;
 letter-spacing: 0%;
-background: rgba(160, 174, 192, 1);
+color: rgba(160, 174, 192, 1);
 
 
 
 }
 .block22{
-    position:relative;
+   
     width: 81px;
 height: 18px;
 top: 483px;
